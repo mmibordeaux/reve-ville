@@ -18,6 +18,7 @@ import ScreenManager from './ScreenManager'
             touch: true,
             mouseDrag: true,
             navContainer: '.js-slider-nav',
+            controlsContainer: '.js-slider-controls'
         });
     }
 
