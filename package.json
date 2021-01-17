@@ -1,0 +1,36 @@
+{
+  "name": "reve-ville",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack --watch",
+    "starter": "./node_modules/.bin/webpack --watch | bundle exec jekyll serve --trace --incremental --livereload-ignore webpack/.config",
+    "start": "./node_modules/.bin/webpack --watch | bundle exec jekyll serve",
+    "build": "./node_modules/.bin/webpack | bundle exec jekyll build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmibordeaux/reve-ville.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmibordeaux/reve-ville/issues"
+  },
+  "homepage": "https://github.com/mmibordeaux/reve-ville#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "gsap": "^3.6.0",
+    "tiny-slider": "^2.9.3"
+  }
+}

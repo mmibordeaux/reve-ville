@@ -5,11 +5,43 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script src="assets/js/main-bundle.js"></script>
   </head>
   <body>
-    {% include header.html %}
+    <div class="main-bg">
+      <video class="bg-city" src="assets/video/city-01.webm" autoplay playsinline muted loop></video>
+    </div>
     <div class="wrapper">
-      {% include introduction.html %}
+      <div class="screen" id="screen-introduction">
+        <div class="screen__center">
+          <div class="screen__content">
+            {% include header.html %}
+            {% include introduction.html %}
+          </div>
+        </div>
+      </div>
+      <div class="screen" id="screen-experiences">
+        <div class="screen__center">
+          <div class="screen__content">
+            <div class="experiences js-slider">
+              {% include experience.html %}
+              {% include experience.html %}
+              {% include experience.html %}
+            </div>
+            <div class="js-slider-nav exp-nav">
+              <div class=" exp-nav__dot">
+                <img src="assets/images/demo-01.jpg" alt="">
+              </div>
+              <div class=" exp-nav__dot">
+                <img src="assets/images/demo-01.jpg" alt="">
+              </div>
+              <div class=" exp-nav__dot">
+                <img src="assets/images/demo-01.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
