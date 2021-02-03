@@ -1,16 +1,15 @@
 <div class="experience">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-6">
+            <div class="col-5">
                 <div class="image">
-                    <img src="assets/images/demo-01.jpg" alt="">
+                    <img src="assets/images/{{ include.image }}" alt="">
                 </div>
             </div>
-            <div class="col-6">
-                <div class="number">1.</div>
-                <h2>L'histoire sans fin...</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, consequuntur maiores. Quis eos tempore esse dicta pariatur omnis, aspernatur ratione minima nostrum earum vero rerum mollitia sed voluptates, quam perspiciatis.</p>
-                <a href="#" class="btn">
+            <div class="col-7">
+                <h2>{{ include.title }}</h2>
+                <p>{{ include.text }}</p>
+                <a href="{{ include.link }}" target="_blank" rel="noopener" class="btn">
                     <span>Découvrir</span>
                 </a>
             </div>

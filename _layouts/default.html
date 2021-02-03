@@ -20,32 +20,29 @@
           </div>
         </div>
       </div>
-      <div class="screen" id="screen-experiences">
+      <div class="screen screen--experiences" id="screen-experiences">
         <div class="screen__center">
           <div class="screen__content">
             <div class="experiences js-slider">
-              {% include experience.html %}
-              {% include experience.html %}
-              {% include experience.html %}
+              {% for exp in site.data.experiences %}
+                {% include experience.html 
+                    title=exp.title
+                    text=exp.text
+                    link=exp.link
+                    image=exp.image    
+                %}
+              {% endfor %}
             </div>
             <ul class="exp-controls js-slider-controls">
-              <li class="exp-controls__arrow exp-controls__arrow--prev" data-controls="prev">
-                prev
-              </li>
-              <li class="exp-controls__arrow exp-controls__arrow--next" data-controls="next">
-                next
-              </li>
+              <li class="exp-controls__arrow exp-controls__arrow--prev" data-controls="prev"></li>
+              <li class="exp-controls__arrow exp-controls__arrow--next" data-controls="next"></li>
             </ul>
             <div class="js-slider-nav exp-nav">
-              <div class=" exp-nav__dot">
-                <img src="assets/images/demo-01.jpg" alt="">
-              </div>
-              <div class=" exp-nav__dot">
-                <img src="assets/images/demo-01.jpg" alt="">
-              </div>
-              <div class=" exp-nav__dot">
-                <img src="assets/images/demo-01.jpg" alt="">
-              </div>
+              {% for exp in site.data.experiences %}
+                <div class="exp-nav__dot">
+                  <img src="assets/images/{{ exp.image }}" alt="">
+                </div>
+              {% endfor %}
             </div>
           </div>
         </div>

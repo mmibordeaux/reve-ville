@@ -11,7 +11,6 @@ import ScreenManager from './ScreenManager'
 
     window.onload = () => {
         new ScreenManager();
-
         let slider = tns({
             container: '.js-slider',
             items: 1,

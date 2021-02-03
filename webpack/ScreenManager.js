@@ -7,7 +7,6 @@ export default class ScreenManager {
        }
 
        this.bindEvents();
-       console.log(this.screens);
     }
 
     bindEvents() {
