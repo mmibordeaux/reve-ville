@@ -3,6 +3,8 @@
         &__content
             padding-bottom: 100px
             width: 100%
+            +media-breakpoint-down($sm)
+                padding-bottom: 0
 .exp-nav
     display: flex
     justify-content: center
@@ -12,6 +14,8 @@
     right: 0
     z-index: 2
     user-select: none
+    +media-breakpoint-down($sm)
+        display: none
     &__dot
         width: 80px
         height: 108px
@@ -21,6 +25,8 @@
             height: 100%
             object-fit: cover
 .exp-controls
+    +media-breakpoint-down($sm)
+        display: none
     &__arrow
         bottom: 50px
         position: absolute
@@ -38,5 +44,12 @@
 
 
 .experience
+    +media-breakpoint-down($sm)
+        padding: 30px
+        margin-bottom: 100px
+        .image
+            text-align: center
+        .btn
+            margin: 30px auto 0
     .btn
         margin-top: 30px

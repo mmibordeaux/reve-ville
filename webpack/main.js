@@ -17,7 +17,14 @@ import ScreenManager from './ScreenManager'
             touch: true,
             mouseDrag: true,
             navContainer: '.js-slider-nav',
-            controlsContainer: '.js-slider-controls'
+            controlsContainer: '.js-slider-controls',
+            disable: true,
+            responsive: {
+                640: {
+                  disable: false,
+                  items: 1
+                },
+              }
         });
     }
 

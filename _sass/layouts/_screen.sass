@@ -5,9 +5,11 @@
     position: absolute
     left: 0
     right: 0
-    
+    overflow-y: auto
     &__center
-        height: 100%
+        min-height: 100%
         display: flex
         align-items: center
         justify-content: center
+        +media-breakpoint-down($sm)
+            padding: 50px 0
