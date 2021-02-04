@@ -15,7 +15,7 @@
 
 - title: Nuage
   text: "Une civilisation prospère grâce à la pluie d'un nuage. Vous êtes la personne chargée de trouver pourquoi la pluie a cessé et comment la faire revenir. Vous entamerez un voyage dans le passé de cet univers, afin de comprendre l'histoire de votre peuple et de son rapport à l'eau."
-  image: experiences/04.png
+  image: experiences/04.jpg
   link: https://yovador.github.io/cloudRnV/
 
 - title: L'ennui au musée (ou peut-être pas...)
@@ -25,7 +25,7 @@
 
 - title: Trieste
   text: "Après avoir subi une violente et mystérieuse tempête, les œuvres du musée des beaux-arts de Bordeaux ont étrangement pris vie dans notre réalité. César, un vieux crabe issu d’une nature morte, cherche à retrouver son habitat naturel : les fonds marins. Notre acolyte devra faire face à son destin en voyageant d'œuvre en œuvre et affronter les différentes énigmes qui lui permettront d’avancer si vous l'aidez à les résoudre !"
-  image: experiences/06.png
+  image: experiences/06.jpg
   link: https://trieste.netlify.app/
 
 - title: The Square Project
