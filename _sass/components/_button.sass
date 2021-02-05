@@ -6,3 +6,26 @@
     font-weight: normal
     text-decoration: none
     color: $white
+    position: relative
+    overflow: hidden
+    span
+        position: relative
+        z-index: 5
+        transition: color 0.22s
+    &:hover
+        span
+            color: $black
+        &:after
+            width: 150%
+            left: -25%
+    &::after
+        content: ''
+        position: absolute
+        display: block
+        right: -25%
+        background: $white
+        top: -2px
+        bottom: -2px
+        width: 0
+        transition: width 0.22s ease-in-out
+        transform: skewX(10deg)

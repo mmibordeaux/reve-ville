@@ -1,6 +1,6 @@
 import { tns } from "tiny-slider/src/tiny-slider"
 import ScreenManager from './ScreenManager'
-
+import introduce from './introduction';
 (function() {
     function fixRealVH() {
         let vh = window.innerHeight * 0.01;
@@ -26,7 +26,8 @@ import ScreenManager from './ScreenManager'
                 },
               }
         });
+
+        introduce();
     }
 
-    
 })();

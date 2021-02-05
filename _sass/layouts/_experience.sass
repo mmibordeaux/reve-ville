@@ -31,11 +31,12 @@
             width: 100%
             height: 100%
             object-fit: cover
+
 .exp-controls
     +media-breakpoint-down($sm)
         display: none
     &__arrow
-        bottom: 50px
+        bottom: 68px
         position: absolute
         z-index: 3
         width: 30px
@@ -51,6 +52,18 @@
 
 
 .experience
+    opacity: 0
+    transition: opacity 0.5s
+    h2, p, a
+        opacity: 0
+        transform: translateY(30px)
+    h2
+        transition: 0.66s 0.2s
+    p
+        transition: 0.66s 0.35s
+    a
+        transition: 0.66s 0.5s
+
     +media-breakpoint-down($sm)
         padding: 30px
         margin-bottom: 100px
@@ -60,3 +73,8 @@
             margin: 30px auto 0
     .btn
         margin-top: 30px
+    &.tns-slide-active
+        opacity: 1
+        h2, p, a
+            opacity: 1
+            transform: translateY(0)
