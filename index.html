@@ -1,0 +1,22 @@
+---
+layout: default
+description: (re)Découvrez le Musée des Beaux-Arts au travers d'expériences digitales narratives, imaginées et réalisées par les étudiants MMI de l'IUT Bordeaux Montaigne
+---
+
+<div class="row text-center">
+  <div class="col-md-6 offset-md-3">
+    <p class="mt-3">
+      Une exposition d'histoires interactives mêlant l'art et le rêve. Toutes ces expériences ont été imaginées et réalisées par les étudiants <a href="https://mmibordeaux.com">MMI Bordeaux</a> à l'IUT Bordeaux Montaigne. Pour cette première édition, nous avons le plaisir de collaborer avec le <a href="http://www.musba-bordeaux.fr/">Musée des Beaux-Arts de Bordeaux</a>.
+    </p>
+  </div>
+</div>
+<div class="card-columns mt-5">
+  {% for experience in site.data.experiences %}
+    <div class="card mb-5 border-0 bg-dark pb-1 text-center">
+      <img src="assets/images/{{ experience.image }}" alt="{{ experience.title }}" class="card-img">
+      <a href="{{ experience.title | datapage_url: 'experiences' }}" class="stretched-link card-text text-white">
+        {{ experience.title}}
+      </a>
+    </div>
+  {% endfor %}
+</div>

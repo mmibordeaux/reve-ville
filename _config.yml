@@ -2,4 +2,10 @@ title: Rêve & Ville
 livereload: true
 # livereload_ignore: webpack/* webpack/.config.js
 plugins:
-- jekyll-autoprefixer
+  - jekyll-autoprefixer
+  - jekyll-datapage-generator
+
+page_gen:
+  - data: experiences
+    name: title
+    template: experience
