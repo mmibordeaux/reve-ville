@@ -1,40 +1,40 @@
 - title: Vol au musée
   description: L’histoire se déroule à Bordeaux. Le tableau représentant une ancêtre de la famille Challemel du Rozier a été dérobé au musée des Beaux Arts de Bordeaux ! Une chevalière correspondant à cette même famille a été retrouvée sur les lieux du vol. Est-ce une vengeance intra-familiale entre les deux clans de la famille Challemel du Rozier ou est-ce un coup d’un des proches de la famille ? L’enquêteur bordelais a du pain sur la planche pour résoudre cette enquête !
-  image: experiences/01.jpg
+  image: 01.jpg
   link: http://vol-au-musee.yohanntonnerre.fr/
 
 - title: Stendhal
   description: Un homme et sa fille de 10 ans se baladent dans la rue, quand soudain sa fille lui lâche la main et rentre dans le musée des beaux-arts de Bordeaux. Son père a toujours fui les musées pour une raison bien particulière, mais cette fois-ci, il ne pourra pas faire demi-tour.
-  image: experiences/02.jpg
+  image: 02.jpg
   link: https://stendhal.netlify.app/
 
 - title: L'Évadé
-  description: "Vous incarnez un personnage, se réveillant dans la plus grande incompréhension devant un tableau déchiré. Une représentation d’un crime dont le coupable s’en échappé. Vous vous mettez en quête d’interroger les personnages des tableaux voisins dans le but de découvrir une seule et unique chose : la vérité. Saurez-vous découvrir ce qu’il s’est passé ? L’identité du tueur ? Ou encore mieux, où se trouve t-il ?"
-  image: experiences/03.jpg
+  description: "Vous incarnez un personnage, se réveillant dans la plus grande incompréhension devant un tableau déchiré. Une représentation d’un crime dont le coupable s’en échappé. Vous vous mettez en quête d’interroger les personnages des tableaux voisins dans le but de découvrir une seule et unique chose&nbsp;: la vérité. Saurez-vous découvrir ce qu’il s’est passé&nbsp;? L’identité du tueur&nbsp;? Ou encore mieux, où se trouve t-il&nbsp;?"
+  image: 03.jpg
   link: https://reve-et-ville.netlify.app/
 
 - title: Nuage
   description: "Une civilisation prospère grâce à la pluie d'un nuage. Vous êtes la personne chargée de trouver pourquoi la pluie a cessé et comment la faire revenir. Vous entamerez un voyage dans le passé de cet univers, afin de comprendre l'histoire de votre peuple et de son rapport à l'eau."
-  image: experiences/04.jpg
+  image: 04.jpg
   link: https://yoannbouquey.com/Nuage/
 
 - title: L'ennui au musée
   subtitle: Ou peut-être pas...
-  description: "Vous vous retrouvez dans le musée des beaux arts, à déambuler dans les couloirs, sans but précis, indifférent à cet art que tout le monde contemple. La seule chose qui arrive à vous tirer de votre indifférence : une interdiction de toucher une toile. Oserez-vous poser vos doigts dessus ? De ce choix pourrait dépendre bien des choses..."
-  image: experiences/05.jpg
+  description: "Vous vous retrouvez dans le musée des beaux arts, à déambuler dans les couloirs, sans but précis, indifférent à cet art que tout le monde contemple. La seule chose qui arrive à vous tirer de votre indifférence : une interdiction de toucher une toile. Oserez-vous poser vos doigts dessus&nbsp;? De ce choix pourraient dépendre bien des choses..."
+  image: 05.jpg
   link: https://lennuieaumusee.vercel.app
 
 - title: Trieste
-  description: "Après avoir subi une violente et mystérieuse tempête, les œuvres du musée des beaux-arts de Bordeaux ont étrangement pris vie dans notre réalité. César, un vieux crabe issu d’une nature morte, cherche à retrouver son habitat naturel : les fonds marins. Notre acolyte devra faire face à son destin en voyageant d'œuvre en œuvre et affronter les différentes énigmes qui lui permettront d’avancer si vous l'aidez à les résoudre !"
-  image: experiences/06.jpg
+  description: "Après avoir subi une violente et mystérieuse tempête, les œuvres du musée des beaux-arts de Bordeaux ont étrangement pris vie dans notre réalité. César, un vieux crabe issu d’une nature morte, cherche à retrouver son habitat naturel : les fonds marins. Notre acolyte devra faire face à son destin en voyageant d'œuvre en œuvre et affronter les différentes énigmes qui lui permettront d’avancer si vous l'aidez à les résoudre&nbsp;!"
+  image: 06.jpg
   link: https://trieste.netlify.app/
 
 - title: The Square Project
-  description: À travers la découverte de l'œuvre "composition 35" de Jean Gorin, découvrez un monde abstrait, dépourvu de formes figuratives. Elle incarne un premier pas vers un monde de formes abstraites et géométriques où la couleur nous guidera dans ce voyage, en quête du point de vue parfait à la manière de George Rousse.
-  image: experiences/07.jpg
+  description: À travers la découverte de l'œuvre “composition 35” de Jean&nbsp;Gorin, découvrez un monde abstrait, dépourvu de formes figuratives. Elle incarne un premier pas vers un monde de formes abstraites et géométriques où la couleur nous guidera dans un voyage, en quête du point de vue parfait à la manière de Georges&nbsp;Rousse.
+  image: 07.jpg
   link: https://thesquareproject.netlify.app/
 
 - title: L'amour de l'art
   description: Marcel, étudiant aux Beaux-Arts, hérite du carnet de notes et de croquis de son grand-père, ce qui l’incite à fouiller dans le passé de sa famille. Il y découvre l’histoire de ses aïeuls ainsi que la véritable provenance de ses dons artistiques, à travers une suite d'énigmes et d’indices laissés par son grand-père, au fil des pages et des tableaux.
-  image: experiences/08.jpg
+  image: 08.jpg
   link: https://l-amour-de-l-art.netlify.app/

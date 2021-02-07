@@ -14,8 +14,19 @@ h1
         font-size: 40px
         line-height: 50px
 
+h2
+    font-weight: 800
+
 p
     font-weight: 200
+
+.card-columns
+    column-count: 2
+    @include media-breakpoint-up(md)
+        column-count: 4
+    a
+        font-weight: 800
+        text-decoration: none
 
 .main-bg
     position: fixed
@@ -44,7 +55,7 @@ p
         &.bg-city
             filter: grayscale(1)
 .wrapper
-    border: 30px solid black
+    border: 30px solid white
     padding: 60px 0
     position: relative
     z-index: 10
@@ -55,3 +66,8 @@ p
         z-index: 10
     @include media-breakpoint-down(sm)
         border-width: 10px
+
+
+footer
+    a
+        color: #666666

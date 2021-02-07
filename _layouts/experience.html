@@ -2,8 +2,8 @@
 layout: default
 ---
 <div class="row align-items-center">
-    <div class="col-md-5">
-      <img src="/assets/images/{{ page.image }}" alt="{{ page.title }}" class="img-fluid">
+    <div class="col-md-5 mb-5">
+      <img src="/assets/images/experiences/{{ page.image }}" alt="{{ page.title }}" class="img-fluid">
     </div>
     <div class="offset-md-1 col-md-6">
         <h2>{{ page.title }}</h2>
@@ -14,3 +14,48 @@ layout: default
         </a>
     </div>
 </div>
+
+<hr>
+
+{% for experience in site.data.experiences %}
+  {% if experience.title == page.title %}
+    {% assign previous_index = forloop.index0 | minus: 1 %}
+    {% assign next_index = forloop.index0 | plus: 1 %}
+    {% assign previous = site.data.experiences[previous_index] %}
+    {% if previous_index >= 0 %}
+    {% endif %}
+    {% assign next = site.data.experiences[next_index] %}
+  {% endif %}
+{% endfor %}
+<div class="row align-items-center">
+  <div class="col-md-1 col-3">
+    {% if previous_index >= 0 %}
+      <a href="/{{ previous.title | datapage_url: 'experiences' }}">
+        <img src="/assets/images/experiences/{{ previous.image }}" alt="{{ next.title }}" class="img-fluid">
+      </a>
+    {% endif %}
+  </div>
+  <div class="col-md-5 col-9">
+    {% if previous_index >= 0 %}
+      <a href="/{{ previous.title | datapage_url: 'experiences' }}">
+        {{ previous.title }}
+      </a>
+    {% endif %}
+  </div>
+  <div class="col-md-5 col-9 text-right">
+    {% if next %}
+      <a href="/{{ previous.title | datapage_url: 'experiences' }}">
+        {{ next.title }}
+      </a>
+    {% endif %}
+  </div>
+  <div class="col-md-1 col-3">
+    {% if next %}
+      <a href="/{{ next.title | datapage_url: 'experiences' }}">
+        <img src="/assets/images/experiences/{{ next.image }}" alt="{{ next.title }}" class="img-fluid">
+      </a>
+    {% endif %}
+  </div>
+</div>
+
+<hr>

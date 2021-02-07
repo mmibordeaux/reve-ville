@@ -5,18 +5,22 @@ description: (re)Découvrez le Musée des Beaux-Arts au travers d'expériences d
 
 <div class="row text-center">
   <div class="col-md-6 offset-md-3">
-    <p class="mt-3">
-      Une exposition d'histoires interactives mêlant l'art et le rêve. Toutes ces expériences ont été imaginées et réalisées par les étudiants <a href="https://mmibordeaux.com">MMI Bordeaux</a> à l'IUT Bordeaux Montaigne. Pour cette première édition, nous avons le plaisir de collaborer avec le <a href="http://www.musba-bordeaux.fr/">Musée des Beaux-Arts de Bordeaux</a>.
+    <p class="mt-3 mb-5">
+      Une exposition d'histoires interactives mêlant l'art & le rêve, dans la ville de Bordeaux. Toutes ces expériences ont été imaginées et réalisées par les étudiants <a href="https://mmibordeaux.com" target="_blank" rel="noreferrer">MMI Bordeaux</a> à <a href="http://www.iut.u-bordeaux-montaigne.fr/" target="_blank" rel="noreferrer">l'IUT Bordeaux Montaigne</a>. Pour cette première édition, nous avons le plaisir de collaborer avec le <a href="http://www.musba-bordeaux.fr/" target="_blank" rel="noreferrer">Musée des Beaux-Arts de Bordeaux</a>.
     </p>
   </div>
 </div>
+<hr>
 <div class="card-columns mt-5">
   {% for experience in site.data.experiences %}
-    <div class="card mb-5 border-0 bg-dark pb-1 text-center">
-      <img src="assets/images/{{ experience.image }}" alt="{{ experience.title }}" class="card-img">
-      <a href="{{ experience.title | datapage_url: 'experiences' }}" class="stretched-link card-text text-white">
-        {{ experience.title}}
-      </a>
+    <div class="card mb-4 border-0 bg-light pb-1 text-center">
+      <img src="assets/images/experiences/{{ experience.image }}" alt="{{ experience.title }}" class="card-img">
+      <p class="card-text p-3">
+        <a href="{{ experience.title | datapage_url: 'experiences' }}" class="stretched-link">
+          {{ experience.title}}
+        </a>
+      </p>
     </div>
   {% endfor %}
 </div>
+<hr>
