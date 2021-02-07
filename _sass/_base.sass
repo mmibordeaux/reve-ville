@@ -1,4 +1,5 @@
 html, body
+    background: #EEEEEE
     *
         box-sizing: border-box
 
@@ -28,32 +29,6 @@ p
         font-weight: 800
         text-decoration: none
 
-.main-bg
-    position: fixed
-    top: 0px
-    left: 0px
-    right: 0px
-    bottom: 0
-    z-index: 1
-    &::after
-      content: ""
-      position: fixed
-      top: 0
-      left: 0
-      right: 0
-      bottom: 0
-      background: white
-      opacity: 0.8
-    video
-        width: 100%
-        height: 100%
-        object-fit: cover
-        opacity: 1
-        position: absolute
-        top: 0
-        left: 0
-        &.bg-city
-            filter: grayscale(1)
 .wrapper
     border: 30px solid white
     padding: 60px 0
