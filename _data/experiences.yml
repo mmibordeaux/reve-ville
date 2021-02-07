@@ -4,23 +4,13 @@
   link: http://vol-au-musee.yohanntonnerre.fr/
 
 - title: Stendhal
-<<<<<<< HEAD
-  description: Un homme et sa fille de 10 ans se baladent dans la rue, quand soudain sa fille lui lâche la main et rentre dans le musée des beaux-arts de Bordeaux. Son père a toujours fui les musées pour une raison bien particulière, mais cette fois-ci, il ne pourra pas faire demi-tour.
+  description: Un homme et sa fille de 10 ans se baladent dans la rue, quand soudain sa fille lui lâche la main et entre dans le Musée des Beaux-Arts de Bordeaux. Son père a toujours fui les musées pour une raison bien particulière, mais cette fois, il ne pourra pas faire demi-tour.
   image: 02.jpg
   link: https://stendhal.netlify.app/
 
 - title: L'Évadé
-  description: "Vous incarnez un personnage, se réveillant dans la plus grande incompréhension devant un tableau déchiré. Une représentation d’un crime dont le coupable s’en échappé. Vous vous mettez en quête d’interroger les personnages des tableaux voisins dans le but de découvrir une seule et unique chose&nbsp;: la vérité. Saurez-vous découvrir ce qu’il s’est passé&nbsp;? L’identité du tueur&nbsp;? Ou encore mieux, où se trouve t-il&nbsp;?"
+  description: "Vous incarnez un personnage se réveillant dans la plus grande incompréhension devant un tableau déchiré. Une représentation d’un crime dont le coupable s’est échappé. Vous vous mettez en quête d’interroger les personnages des tableaux voisins dans le but de découvrir une seule et unique chose&nbsp;: la vérité. Saurez-vous découvrir ce qu’il s’est passé&nbsp;? L’identité du tueur&nbsp;? Ou encore mieux, où se trouve t-il&nbsp;?"
   image: 03.jpg
-=======
-  text: Un homme et sa fille de 10 ans se baladent dans la rue, quand soudain sa fille lui lâche la main et entre dans le musée des beaux-arts de Bordeaux. Son père a toujours fui les musées pour une raison bien particulière, mais cette fois-ci, il ne pourra pas faire demi-tour.
-  image: experiences/02.png
-  link: https://stendhal.netlify.app/
-
-- title: L'Évadé
-  text: "Vous incarnez un personnage, se réveillant dans la plus grande incompréhension devant un tableau déchiré. Une représentation d’un crime dont le coupable s’en est échappé. Vous vous mettez en quête d’interroger les personnages des tableaux voisins dans le but de découvrir une seule et unique chose : la vérité. Saurez-vous découvrir ce qu’il s’est passé ? L’identité du tueur ? Ou encore mieux, où se trouve t-il ?"
-  image: experiences/03.png
->>>>>>> 1c8f28244ec8836c71f87e0a9840fe03d55d7eeb
   link: https://reve-et-ville.netlify.app/
 
 - title: Nuage
